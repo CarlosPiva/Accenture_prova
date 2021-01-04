@@ -13,7 +13,7 @@ public class BasePage {
 
 	@Before
 	public void init() throws IOException{
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Piva\\Desktop\\prova_Accenture\\src\\test\\resources\\drivers\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", ".\\src\\test\\resources\\drivers\\chromedriver.exe");
 
 		driver = new ChromeDriver();
 
